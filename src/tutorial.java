@@ -8,5 +8,12 @@ public class tutorial {
         System.out.println("Hello wordl");
         MakeCanine s=new MakeCanine();
         s.go();
+        MyAnimalList alist = new MyAnimalList();
+        Dog d = new Dog();
+        Cat df = new Cat();
+        alist.add(d);
+        alist.add(df);
+        alist.add(d);
+        alist.add(df);;
     }
 }

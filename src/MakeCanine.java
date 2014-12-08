@@ -1,12 +1,12 @@
 /**
- * Created by quodnon on 12/8/14.
- */
+* Created by quodnon on 12/8/14.
+        */
 public class MakeCanine {
     public void go()
     {
         Canine c;
         c = new Dog();
-       // c = new Canine();
+        // c = new Canine();
         c.roam();
         c.eat();
         Dog dof1 = new Dog();
@@ -16,5 +16,5 @@ public class MakeCanine {
         list.add(dof1);
         list.add(dof1);
         list.add(dof1);
-    }
+        }
 }
