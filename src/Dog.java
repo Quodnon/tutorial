@@ -5,4 +5,7 @@ public class Dog extends Canine {
     public void roam(){
         System.out.print("Roam");
     }
+    public void eat(){
+        System.out.print("nom-nom");
+    }
 }

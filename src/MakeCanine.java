@@ -8,6 +8,6 @@ public class MakeCanine {
         c = new Dog();
        // c = new Canine();
         c.roam();
-
+        c.eat();
     }
 }
