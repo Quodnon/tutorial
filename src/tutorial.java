@@ -5,6 +5,8 @@ import org.omg.PortableServer._ServantLocatorStub;
 
 import  java.*;
 import  java.io.*;
+import java.util.ArrayList;
+
 public class tutorial {
     public  static void main(String [] args){
         Dog a = new Dog();
@@ -19,5 +21,13 @@ public class tutorial {
 
         }
         System.out.print( sf.hashCode()+" "+ sf.getClass() +' '+ sf.toString());
+
+        ArrayList<Dog> myDARList = new ArrayList<Dog>();
+        Dog ds = new Dog();
+        myDARList.add(ds);
+        Object dog = myDARList.get(0);
+
+        System.out.println("\n" + dog.getClass().toString());
+
     }
 }
