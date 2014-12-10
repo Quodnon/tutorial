@@ -1,9 +1,11 @@
 /**
  * Created by quodnon on 08.12.14.
  */
+import com.sun.java.util.jar.pack.Attribute;
 import org.omg.PortableServer._ServantLocatorStub;
 
 import  java.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import  java.io.*;
@@ -46,6 +48,32 @@ public class tutorial {
                 si++;
                 src.setText("click "+Integer.toString(si));
                 JDialog s=new JDialog();
+                LayoutManager layoutManager=new LayoutManager() {
+                    @Override
+                    public void addLayoutComponent(String s, Component component) {
+
+                    }
+
+                    @Override
+                    public void removeLayoutComponent(Component component) {
+
+                    }
+
+                    @Override
+                    public Dimension preferredLayoutSize(Container container) {
+                        return null;
+                    }
+
+                    @Override
+                    public Dimension minimumLayoutSize(Container container) {
+                        return null;
+                    }
+
+                    @Override
+                    public void layoutContainer(Container container) {
+
+                    }
+                };
                 s.setSize(433,443);
                 s.setVisible(true);
             }
